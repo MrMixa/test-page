@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Первый Веб-Сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать на мой сайт!</h1>
+</header>
+
+<nav>
+    <a href="#about">О нас</a>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="content">
+    <h2 id="about">О нас</h2>
+    <p>Мы - компания, предоставляющая высококачественные услуги в области обучения.</p>
+    <img src="data:image/jpeg;base64,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" alt="Пример изображения" />
+
+    <h2 id="services">Услуги</h2>
+    <ul>
+        <li>Разработка сайтов</li>
+        <li>Основы Python</li>
+        <li>Задачи из ЕГЭ</li>
+    </ul>
+
+    <h2 id="contact">Контакты</h2>
+    <p>Вы можете связаться с нами по email: <a href="mailto:jerdevka75@gmail.com">jerdevka75@gmail.com</a></p>
+</div>
+
+<footer>
+    <p>&copy; 2024</p>
+</footer>
+
+</body>
+</html>
